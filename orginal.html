@@ -1,0 +1,66 @@
+<DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="manifest" href="https://p16cdn4static.sharpschool.com/UserFiles/Servers/Server_2977763/Templates/favicons/site.webmanifest">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Favicon End --> 
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <title>YOFHS: The Evening of the Arts 2020</title>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168093567-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168093567-1');
+    </script>
+
+
+</head>
+<body>    
+    <header>
+        <h1 style="text-align: center; font-family: 'Parisienne', cursive;">Yeshivah of Flatbush Joel Braverman High School <br>Evening of The Arts</h1>
+    </header>
+    
+        <iframe id="youtube" width="100%" height="95%" src="https://www.youtube.com/embed/27NdUXkfKXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col" style="padding-top: .75rem; padding-bottom: .75rem;"><h6 style="text-align: center;"> <a href="https://www.flatbush.org/"> Yeshivah of Flatbush Joel Braverman High School </a> | Website &amp; Video Created by <a href="http://media.jacobkhalili.com/">Jacob Khalili</a></h6></div>
+            </div>
+        </div>
+    </footer>
+    
+<script type="text/javascript">
+var monitor = setInterval(function(){
+    var elem = document.activeElement;
+    if(elem && elem.tagName == 'IFRAME'){
+           if(elem.id == "youtube"){document.getElementById('myAudio').pause(); ga('send', 'event', "Video", "Started Video"); }
+            if(elem.id == "tour"){document.getElementById('myAudio').play(); ga('send', 'event', "Tour", "Started Tour");
+}
+        
+        
+    } else {
+        	document.getElementById('myAudio').pause();
+    }
+
+}, 500);
+    </script>
+        
+    
+    
+    
+</html>
